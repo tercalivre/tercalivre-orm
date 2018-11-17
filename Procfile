@@ -1,1 +1,1 @@
-web: gunicorn tercalivre.wsgi --log-file -
+web: gunicorn tercalivre.wsgi
