@@ -8,6 +8,7 @@ class Categoria(models.Model):
         return self.descricao
 
     class Meta:
+        db_table = 'categoria'
         verbose_name = 'Categoria'
         verbose_name_plural = 'Categorias'
         ordering = ['descricao']
