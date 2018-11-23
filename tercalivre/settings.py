@@ -41,6 +41,7 @@ INSTALLED_APPS = [
 
     'categoria',
     'autor',
+    'artigo',
 ]
 
 MIDDLEWARE = [
